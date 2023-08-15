@@ -6,7 +6,7 @@
 #SBATCH --mem-per-gpu=3G
 #SBATCH --time 1-0
 #SBATCH --partition batch_grad
-#SBATCH -o repos/project/logs/slurm-%A-%x.out
+#SBATCH -o logs/slurm-%A-%x.out
 
 python 0816.py
 
